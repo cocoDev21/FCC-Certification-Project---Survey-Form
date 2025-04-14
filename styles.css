@@ -1,0 +1,69 @@
+body {
+  background: linear-gradient(to bottom, rgb(0, 13, 114), rgb(6, 0, 42));
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: Tahoma;
+  }
+  
+  #survey {
+    padding: 80px;
+    border: 3px;
+    border-color: black;
+    border-radius: 20px;
+    border-style: solid;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 70px;
+    margin-bottom: auto;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 20px 0 rgb(0, 0, 0);
+  }
+  
+  #container1 {
+    display: flex;
+    flex-direction: column;
+    align-content: left;
+    gap: 2em;
+  }
+  
+form input[type="text"],
+form input[type="email"],
+form input[type="number"], select{ 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+  }
+
+
+#submit {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(2, 30, 54);
+  margin-top: 30px;
+  padding: 10px;
+  height: 60px;
+  width: 180px;
+  font-size: 15px;
+}
+
+#submit:hover {
+  background-color: rgb(2, 21, 171);
+  cursor: pointer;
+  animation: 0.5s;
+  transition: 0.5s;
+}
+
+textarea {
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow: auto;
+    resize: vertical;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+  
+  

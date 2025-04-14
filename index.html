@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="Utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="styles.css">
+  <title>Survey Form</title>
+
+</head>
+<body>
+  <div id="survey">
+    <h1 id="title">Survey Form</h1>
+  <p id="description">
+    This survey form is for the freeCodeCamp Survey Form exercise. This is only a test application.
+  </p>
+  <br>
+
+  <h2>Profile</h2>
+  <form id="survey-form">
+    <div id="container1">
+        <label for="input_fields" id="name-label">Name:</label>
+        <input type="text" id="name" placeholder="Enter Name" required>
+
+        <label for="input_fields" id="email-label">E-mail:</label>
+        <input type="email" id="email" placeholder="Enter E-mail" required>
+
+        <label for="input_fields" id="number-label">Age:</label>
+        <input type="number" id="number" min="0" max="150" placeholder="Age" required>
+
+      <p>Pronouns</p>
+        <select id="dropdown" required>
+          <option>He/him</option>
+          <option>She/her</option>
+          <option>They/them</option>
+        </select>
+      </div>
+      <br>
+      <p><strong>Gender</strong></p>
+      <input type="radio" name="Gender" value="Female" required>
+      <label for="gender">Female</label>
+
+      <input type="radio" name="Gender" value="Male" required>
+      <label for="gender">Male</label>
+      <br>
+      
+      <br>
+      <h3>Programming Languages knowledge:</h3>
+        <input type="checkbox" value="cbox1">
+        <label for="programming-lang">Java</label>
+
+        <input type="checkbox" value="cbox2">
+        <label for="programming-lang">Python</label>
+
+        <input type="checkbox" value="cbox3">
+        <label for="programming-lang">C</label>
+
+        <input type="checkbox" value="cbox4">
+        <label for="programming-lang">C++</label>
+
+        <input type="checkbox" value="cbox5">
+        <label for="programming-lang">C#</label>
+
+        <input type="checkbox" value="cbox6">
+        <label for="programming-lang">Assembly</label>
+
+        <input type="checkbox" value="cbox7">
+        <label for="programming-lang">Ruby</label>
+
+        <input type="checkbox" value="cbox8">
+        <label for="programming-lang">Javascript</label>
+
+        <input type="checkbox" value="cbox9">
+        <label for="programming-lang">PHP</label>
+
+        <input type="checkbox" value="cbox10">
+        <label for="programming-lang">SQL</label>
+
+        <input type="checkbox" value="cbox11">
+        <label for="programming-lang">Swift</label>
+
+        <input type="checkbox" value="cbox12">
+        <label for="programming-lang">Go</label>
+
+        <input type="checkbox" value="cbox12">
+        <label for="programming-lang">Kotlin</label>
+
+        <input type="checkbox" value="cbox12">
+        <label for="programming-lang">R</label>
+
+        <input type="checkbox" value="cbox12">
+        <label for="programming-lang">MATLAB</label>
+
+        <input type="checkbox" value="cbox12">
+        <label for="programming-lang">Visual Basic .NET</label>
+
+        <input type="checkbox" value="cbox12">
+        <label for="programming-lang">Delphi/Object Pascal</label>
+
+        <input type="checkbox" value="cbox12">
+        <label for="programming-lang">Perl</label>
+
+        <input type="checkbox" value="cbox12">
+        <label for="programming-lang">Objective-C</label>
+
+        <input type="checkbox" value="cbox12">
+        <label for="programming-lang">Rust</label>
+
+        <input type="checkbox" value="cbox12">
+        <label for="programming-lang">Classic Visual Basic</label>
+
+        <input type="checkbox" value="cbox12">
+        <label for="programming-lang">Scratch</label>
+
+        <input type="checkbox" value="cbox12">
+        <label for="programming-lang">Lua</label>
+        <br>
+        <br>
+    <h4>Share to us:</h4>
+      <p><label for="commentArea">What would you like us to know?</p>
+      <textarea id="textarea1" name="commentArea" rows="5" placeholder="write a comment here"></textarea>
+      <button id="submit">Submit</button>
+  </form>
+  </div>
+</body>
+</html>
